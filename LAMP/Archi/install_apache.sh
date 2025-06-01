@@ -1,0 +1,1 @@
+pacman install Apache2
