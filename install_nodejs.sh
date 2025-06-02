@@ -2,7 +2,7 @@
 
 
 
-if ! command -v nodejs &>dev/null 
+if ! command -v nodejs &>/dev/null 
 then
 	brew install node
 else
