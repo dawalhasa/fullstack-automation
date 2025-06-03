@@ -1,39 +1,55 @@
-../bash_script
-├── FULLSTACK
-│   ├── backend
-│   │   ├── back_end.sh
-│   │   └── install_express.sh
-│   └── frontend
-│       ├── Angular
-│       │   └── install_angular.sh
-│       ├── React
-│       │   └── install_react.sh
-│       ├── Vue
-│       │   └── install_vue.sh
-│       └── front_end.sh
-├── LAMP
-│   ├── Archi
-│   │   ├── install_apache.sh
-│   │   ├── install_mysql.sh
-│   │   └── install_php.sh
-│   ├── CentOS_RedHat
-│   │   ├── install_apache.sh
-│   │   ├── install_mysql.sh
-│   │   └── install_php.sh
-│   └── Ubuntu_Kali_Debian
-│       ├── install_apache.sh
-│       ├── install_mysql.sh
-│       └── install_php.sh
-├── OS
-│   ├── linux
-│   │   └── linux_os.sh
-│   ├── mac
-│   │   ├── brew_installation.sh
-│   │   └── mac_os.sh
-│   ├── os.sh
-│   └── window
-│       └── window_os.sh
-├── README.md
-└── install_nodejs.sh
+---
+title: Bash Authomation Project
+sub_title: June 1st 2025
+author: Dawalhasa
+---
 
-15 directories, 22 files
+Full Stack Automation
+======================
+
+<!-- new_lines: 5 -->
+
+<!-- pause -->
+
+# OS Level
+
+## Bash Scripting:
+```bash
+OS='Linux,Mac,Window'
+```
+
+<!-- end_slide -->
+
+Front End Bash Scripting
+========================
+
+## Install React on MacOS
+```bash
+if ! command -v nodejs &>/dev/null
+then
+    brew install nodejs
+else
+    echo "nodejs installed already"
+fi
+```
+## Install React on Linux
+```bash
+if ! command -v nodejs &>/dev/null
+then
+    apt install nodejs
+else
+    echo "nodejs installed already"
+fi
+```
+## Install React on Window
+```bash
+
+if ! command -v nodejs &>/dev/null
+then
+    winget install nodejs
+else
+    echo "nodejs installed already"
+fi
+```
+
+
